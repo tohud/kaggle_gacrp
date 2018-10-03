@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "gacrp_type": {
+      "properties": {
+        "fullVisitorId": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword"
+            }
+          }
+        }
+      }
+    }
+  }
+}
