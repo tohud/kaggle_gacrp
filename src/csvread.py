@@ -1,7 +1,8 @@
 #!/usr/bin/python3.6
-
 import csv
-csv_file = open("../train_flat.csv")
+import os
+GACRP_HOME=os.environ['GACRP_HOME']
+csv_file = open(GACRP_HOME+"/dat/train_flat.csv")
 
 f = csv.reader(csv_file,delimiter=",",doublequote=True)
 
