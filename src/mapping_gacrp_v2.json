@@ -1,0 +1,37 @@
+{
+  "mappings": {
+    "gacrp_v2_type": {
+      "properties": {
+        "fullVisitorId": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword"
+            }
+          }
+        },
+	"date":{ 
+	  "type":"integer"
+	},
+	"totals_pageviews":{
+	  "type":"integer"
+	},
+	"totals_timeOnSite":{ 
+	  "type":"integer"
+	},
+	"totals_transactionRevenue":{ 
+	  "type":"integer"
+	},
+	"totals_totalTransactionRevenue":{ 
+	  "type":"integer"
+	},
+	"totals_hits":{
+	  "type":"integer"
+	},
+	"visitNumber":{
+	  "type":"integer"
+	}
+      }
+    }
+  }
+}
